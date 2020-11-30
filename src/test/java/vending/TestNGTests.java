@@ -10,7 +10,7 @@ import java.util.List;
 
 public class TestNGTests {
     private static VendingMachineInAction vem;
-
+    private static int i;
     @BeforeTest
     public static void setup(){
         vem = new VendingMachineInAction();
